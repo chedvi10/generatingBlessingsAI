@@ -11,8 +11,8 @@ const Baby = (props) => {
                 <br />
                 <select id="gender" value={props.babyGender} onChange={(e) => props.setBabyGender(e.target.value)}>
                     <option value="boy">מין</option>
-                    <option value="boy">תינוק</option>
                     <option value="girl">תינוקת</option>
+                    <option value="boy">תינוק</option>
                 </select>
             </div>
         </>
